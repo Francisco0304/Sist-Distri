@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    margin: auto; /* Añadido para centrar el contenido */
+    max-width: 800px; /* Ajusta el ancho máximo según sea necesario */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.small-image {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 20px;
+}
+
+h1.main-title {
+    font-size: 2em; /* Ajusta el tamaño del título según sea necesario */
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.medium-image {
+    max-width: 50%;
+    height: auto;
+}
+
+.description {
+    width: 50%;
+    padding: 20px;
+}
+
+.description p {
+    text-align: justify;
+}
+
+.footer-text {
+    margin-top: 20px;
+}
